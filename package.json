@@ -23,7 +23,9 @@
   "devDependencies": {
     "chai": "*",
     "chai-http": "*",
+    "grunt": "^1.0.1",
     "mocha": "*",
+    "mockserver-client": "^1.0.10",
     "nock": "*"
   }
 }
