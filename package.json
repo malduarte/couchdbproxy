@@ -1,0 +1,29 @@
+{
+  "name": "couchdbproxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'src/test/**/*.@(js)' --recursive",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malduarte/couchdbproxy.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/malduarte/couchdbproxy/issues"
+  },
+  "homepage": "https://github.com/malduarte/couchdbproxy#readme",
+  "dependencies": {
+    "http-proxy": "^1.14.0"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "chai-http": "*",
+    "mocha": "*",
+    "nock": "*"
+  }
+}
